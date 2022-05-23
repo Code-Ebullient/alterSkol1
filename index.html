@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!----hero Section start---->
+
+    <div class="hero">
+      <nav>
+        <h2 class="logo">Portfo<span>lio</span></h2>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="/pages/login.html" target="_blank">Login</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="/pages/register.html" target="_blank" class="btn">Register</a>
+      </nav>
+
+      <div class="content">
+        <h4>Hola, my name is</h4>
+        <h1>Peace <span>Onyekachi</span></h1>
+        <h3>I am a Full Stack Aspirant.</h3>
+        <div class="newslatter">
+          <form>
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="Enter Your Email"
+            />
+            <input type="submit" name="submit" value="Lets Start" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!----About section start---->
+    <section id="about" class="about">
+      <div class="main">
+        <img
+          src="https://res.cloudinary.com/the-muses/image/upload/v1652838739/glas_wpmt9u.jpg"
+        />
+        <div class="about-text">
+          <h2>About Me</h2>
+          <h5>Developer <span>& Designer</span></h5>
+          <p>
+            Hey there, I am Peace, a software engineer living in Lagos, Nigeria.
+            I am a fan of design, web development, and programming. I can
+            provide clean code and pixel perfect design. I have a proven
+            knowledge of research dev as well as volunteering. I have
+            demonstrated strong leadership and organisational skills in several
+            capacities as well as sound verbal and written communication, and
+            report writing skills. I speak and write English, French and
+            Spanish.
+          </p>
+          <button type="button" class="btn-about">
+            <a
+              href="https://sites.google.com/view/newchassis/portfolio"
+              target="_blank"
+              class="about-lk button"
+              >Let's Talk</a
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-----skill section start----------->
+    <div class="service">
+      <div class="title">
+        <h2>My Skills</h2>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <i class="fas fa-bars"></i>
+          <h5>Frontend Developer</h5>
+          <div class="pra">
+            <p>
+              Visual excellency. The perfect touch on every device. Global
+              recognision.
+            </p>
+
+            <p style="text-align: center">
+              <a class="button" href="https://about.me/peaceonyekachi/"
+                >Read More</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="far fa-user"></i>
+          <h5>Backend Developer</h5>
+          <div class="pra">
+            <p>
+              Comprehensive database. Thorough in data collection. SEO
+              prioritized.
+            </p>
+
+            <p style="text-align: center">
+              <a class="button" href="https://about.me/peaceonyekachi/"
+                >Read More</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="far fa-bell"></i>
+          <h5>UI/UX Design</h5>
+          <div class="pra">
+            <p>
+              Sweet design. Unquestionable uniqueness. Flexibilty in useage.
+            </p>
+
+            <p style="text-align: center">
+              <a class="button" href="https://dribbble.com/chassis"
+                >Read More</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact" class="container-f">
+      <div class="title">
+        <h2>Contact</h2>
+      </div>
+
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+          required
+        />
+
+        <label for="lname">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email.."
+          required
+        />
+
+        <label for="priority">Priority</label>
+        <select id="priority" name="priority">
+          <option value="family">Family</option>
+          <option value="work">Work</option>
+          <option value="money">Money</option>
+          <option value="relax">Relax</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <!------Experience------>
+    <div class="connect-me">
+      <p>Let Me Show You More Beautiful Website.</p>
+      <a class="button-two" href="/pages/calculator.html">Table Calculator</a>
+      <a class="button-two" href="/pages/calculator.html">Flex Calculator</a>
+    </div>
+
+    <!------footer start--------->
+    <footer>
+      <p>Peace Onyekachi</p>
+      <p>
+        Blaming is easy, Accountability is hard. <br />
+        Just do it, Nothing is impossible
+      </p>
+      <div class="social">
+        <a href="https://dribbble.com/chassis" target="_blank"
+          ><i class="fab fa-dribbble"></i
+        ></a>
+        <a
+          href="https://github.com/Code-Ebullient/"
+          target="_blank"
+          class="fab fa-github"
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/peace-onyekachi-09018775/"
+          target="_blank"
+          class="fab fa-linkedin-in"
+        ></a>
+        <a
+          href="https://facebook.com/peace.amara.5/"
+          target="_blank"
+          class="fab fa-facebook-f"
+        ></a>
+        <a
+          href="https://twitter.com/ofodile_peace/"
+          target="_blank"
+          class="fab fa-twitter"
+        ></a>
+        <a
+          href="https://www.instagram.com/tak2pis/"
+          target="_blank"
+          class="fab fa-instagram"
+        ></a>
+      </div>
+      <p class="end">Copyright &copy; 2022</p>
+    </footer>
+  </body>
+</html>
